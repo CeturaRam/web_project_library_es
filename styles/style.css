@@ -339,10 +339,15 @@
 
 .footer {
   display: flex;
-  flex-direction: comlumn;
+  flex-direction: column;
   box-sizing: border-box;
   background-color: #000000;
   padding: 60px 80px;
+}
+
+.footer__cover {
+  width: 100%;
+  position: relative;
 }
 
 .footer__columns {
@@ -388,7 +393,7 @@
 
 .footer__column-link {
   display: flex;
-  color: white;
+  color: #fff;
   text-decoration: none;
   column-gap: 10px;
   align-items: center;
@@ -405,4 +410,5 @@
   margin-top: 100px;
   margin-bottom: 0;
   font-size: small;
+  color: #fff;
 }
