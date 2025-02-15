@@ -340,12 +340,13 @@
 .footer {
   display: flex;
   background-color: #000000;
+  padding: 60px 80px;
 }
 
 .footer__columns {
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
-  justify-content: center;
 }
 
 .footer__column_content_hours {
